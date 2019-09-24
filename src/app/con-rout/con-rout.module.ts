@@ -8,6 +8,7 @@ import { ConCompComponent } from './con-comp/con-comp.component';
   declarations: [ConCompComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [ConCompComponent]
 })
 export class ConRoutModule { }

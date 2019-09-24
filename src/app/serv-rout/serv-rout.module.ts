@@ -8,6 +8,7 @@ import { ServCompComponent } from './serv-comp/serv-comp.component';
   declarations: [ServCompComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [ServCompComponent]
 })
 export class ServRoutModule { }

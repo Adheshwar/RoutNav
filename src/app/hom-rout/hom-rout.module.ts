@@ -8,6 +8,7 @@ import { HomCompComponent } from './hom-comp/hom-comp.component';
   declarations: [HomCompComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [HomCompComponent]
 })
 export class HomRoutModule { }

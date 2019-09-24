@@ -8,6 +8,7 @@ import { ProjCompComponent } from './proj-comp/proj-comp.component';
   declarations: [ProjCompComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [ProjCompComponent]
 })
 export class ProjRoutModule { }
